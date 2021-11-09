@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/site.css">
+  </head>
+  <body>
+    <h1 class="text-center mb-3 " >Contact Me</h1>
+    <!--Name-->
+    <form action="#">
+      <div class="row mb-1">
+        <div class="col">
+            <label class="form-label">First Name</label>
+            <input type="text" name="firstName" class="form-control" placeholder="First name" aria-label="First name" required>
+        </div>
+        <div class="col">
+            <label for="form-label">Last Name</label>
+            <input type="text" name="lastName" class="form-control" placeholder="Last Name" aria-label="Last name" required>
+        </div>
+      </div>
+      <!--Email and Phone-->
+      <div class="row mb-1">
+        <div class="col">
+            <label class="form-label">Email</label>
+            <input type="text" name="Email" class="form-control" placeholder="Email" aria-label="Email" required>
+        </div>
+        <div class="col">
+            <label class="form-label">Phone(optional)</label>
+            <input type="text" name="Phone" class="form-control" placeholder="Phone" aria-label="Phone">
+        </div>
+      </div>
+<!--Subject-->
+<div class="row mb-1">
+    <div class="col">
+        <label class="form-label">Subject</label>
+        <input type="text" name="Subject" class="form-control" placeholder="Subject" aria-label="Subject">
+    </div>
+</div>
+
+
+<!--Message-->
+
+<div class="row mb-1">
+    <div class="col">
+        <label class="form-label">Message</label>
+        <textarea type="text" name="message" class="form-control" placeholder="Message"
+        aria-label="Message" required></textarea>
+    </div>
+</div>
+
+<button type="submit" class="btn btn-primary mt-2"></button>
+
+    </form>
+  </body>
+</html>
